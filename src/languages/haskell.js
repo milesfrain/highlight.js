@@ -55,7 +55,7 @@ export default function(hljs) {
 
   return {
     name: 'Haskell',
-    aliases: ['hs'],
+    aliases: ['hs', 'purs', 'purescript'],
     keywords:
       'let in if then else case of where do module import hiding ' +
       'qualified type data newtype deriving class instance as default ' +

@@ -1,3 +1,15 @@
+# Instructions for creating custom theme for PureScript
+
+This branch just adds `purs` and `purescript` as Haskell aliases.
+
+Run:
+
+```
+node ./tools/build.js -t browser haskell javascript
+```
+To produce `build/highlight.min.js`, which supports highlighting of `purs` blocks. This also keeps `js` highlighting too, which is often nice to have in PureScript docs.
+
+
 # Highlight.js
 
 [![Build Status](https://travis-ci.org/highlightjs/highlight.js.svg?branch=master)](https://travis-ci.org/highlightjs/highlight.js) [![Greenkeeper badge](https://badges.greenkeeper.io/highlightjs/highlight.js.svg)](https://greenkeeper.io/) [![install size](https://packagephobia.now.sh/badge?p=highlight.js)](https://packagephobia.now.sh/result?p=highlight.js)
